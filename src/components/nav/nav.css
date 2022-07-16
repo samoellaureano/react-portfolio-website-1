@@ -22,3 +22,16 @@ nav a {
     color: var(--color-light);
     font-size: 1.1rem;
 }
+
+nav a:hover {
+    background: var(--color-primary);
+    color: var(--color-bg);
+    /*REMOVER OS DOIS ACIMA*/
+    /* background: rgba(0, 0, 0, 0.3); */
+}
+
+nav a.active {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
